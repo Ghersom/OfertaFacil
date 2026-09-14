@@ -19,8 +19,10 @@ jobs:
     steps:
       - name: Baixar projeto
         uses: actions/checkout@v4
-      - name: Configurar Pages
+      - name: Configurar e ativar Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Empacotar site
         uses: actions/upload-pages-artifact@v3
         with:
