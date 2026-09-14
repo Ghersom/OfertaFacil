@@ -1,0 +1,20 @@
+{
+  "name": "OfertaFácil — Ofertas de Supermercados",
+  "short_name": "OfertaFácil",
+  "description": "Todas as ofertas dos seus mercados em um só lugar.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F8F7F1",
+  "theme_color": "#156B45",
+  "categories": ["shopping", "lifestyle"],
+  "icons": [
+    {"src":"./icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ],
+  "shortcuts": [
+    {"name":"Ver ofertas","short_name":"Ofertas","url":"./#ofertas"},
+    {"name":"Cadastrar oferta","short_name":"Cadastrar","url":"./#cadastrar"}
+  ]
+}
